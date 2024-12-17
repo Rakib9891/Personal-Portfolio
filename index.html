@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="/Personal-Portfolio/logo.png" alt="Logo" class="logo" />
+            <ul class="ul">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Service</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" id="open"></i>
+            </ul>
+          <i class="fa-solid fa-bars" id="open2"></i>
+        </nav>
+        <div class="header-text">
+          <p>Web developer</p>
+          <h1>
+            Hi, I'm <span>Rakibul </span> <br />
+            Hasan From Bangladesh
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- Header section close here -->
+    <!-- About Start from here -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-cl-1">
+            <img src="/Personal-Portfolio/user.png" alt="" />
+          </div>
+          <div class="about-cl-2">
+            <h1 class="sub-tittle">About me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              minus nesciunt ipsum quas consectetur cumque mollitia, adipisci
+              soluta rem consequuntur temporibus molestias officiis! Null
+              excepturi voluptatum incidunt at autem praesentium.
+            </p>
+
+            <div class="tab-tittle">
+              <p class="tab-links active-link" onclick="OpenTab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="OpenTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="OpenTab('education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="Skills">
+              <ul>
+                <li><span>UI?UX</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />Designing Web/App interfaces
+                </li>
+                <li>
+                  <span>App Development</span><br />Designing Web/App interfaces
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />UI/UX Design Training at ET
+                  Institute
+                </li>
+                <li><span>2019 - 2021</span><br />Team lead at SrarApp LLC.</li>
+                <li>
+                  <span>2016 - 2017</span><br />Intershipe at ekart eCommerce.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="education">
+              <ul>
+                <li><span>2016</span><br />self learned from YouTube</li>
+                <li><span>2016</span><br />self learned from YouTube</li>
+                <li><span>2014</span><br />self learned from YouTube</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About section close here -->
+    <!-- Services start from here -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
+              animi officia quia nesciunt eligendi nam neque amet eum? Quas
+              voluptas eligendi nobis odio praesentium ratione molestiae quos
+              qui nostrum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-web-awesome"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
+              animi officia quia nesciunt eligendi nam neque amet eum? Quas
+              voluptas eligendi nobis odio praesentium ratione molestiae quos
+              qui nostrum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cum
+              animi officia quia nesciunt eligendi nam neque amet eum? Quas
+              voluptas eligendi nobis odio praesentium ratione molestiae quos
+              qui nostrum.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services end here -->
+    <!-- Portfolio start from here  -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/Personal-Portfolio/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Social Media Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                tenetur nihil laboriosam impedit, ut modi culpa laudantium
+                voluptates voluptatem. Eligendi sapiente facere mollitia animi
+                commodi tempora ut impedit harum ipsam.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/Personal-Portfolio/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Commercial Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                tenetur nihil laboriosam impedit, ut modi culpa laudantium
+                voluptates voluptatem. Eligendi sapiente facere mollitia animi
+                commodi tempora ut impedit harum ipsam.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/Personal-Portfolio/work-3.png" alt="" />
+            <div class="layer">
+              <h3>Personal Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                tenetur nihil laboriosam impedit, ut modi culpa laudantium
+                voluptates voluptatem. Eligendi sapiente facere mollitia animi
+                commodi tempora ut impedit harum ipsam.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- Portfolio ends here  -->
+    <!-- Contact section start from here  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                    <P><i class="fa-solid fa-phone"></i> 112313133</P>
+                    <div class="social-icon">
+                        <a href="#"><i id="fb" class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i id="insta" class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i id="tweeter" class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i id="linkdin" class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i id="what" class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="/Personal-Portfolio/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Messege" rows="6" placeholder="Give your Messege"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a href="#header" id="scroll-up">To Top</a>
+        <div class="copyright">
+            <p>Copyright ©️ Rakib. </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
