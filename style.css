@@ -349,7 +349,9 @@ form .btn2{
     }
     #open,#open2{
         display: block;
+        position: fixed;
         font-size: 25px;
+        right: 5vw;
     }
     nav ul{
         background-color: #ff004f;
@@ -361,6 +363,7 @@ form .btn2{
         background: linear-gradient(135deg, rgb(0, 104, 0), rgb(119, 234, 188));
         padding-top: 50px;
         transition: 0.5s;
+        z-index: 1;
     }
     nav ul li{
         display: block;

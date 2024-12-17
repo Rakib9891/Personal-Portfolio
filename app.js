@@ -3,6 +3,7 @@ let tabContents = document.querySelectorAll(".tab-content")
 const menu = document.querySelector("#open2")
 const menuCls = document.querySelector("#open")
 const ul = document.querySelector(".ul")
+const menuLinks = document.querySelectorAll(".menuLink")
 
 // About section skills, education and exparience 
 const OpenTab = (tabname) => {
@@ -22,4 +23,9 @@ menu.addEventListener("click",()=> {
 })
 menuCls.addEventListener("click",()=> {
     ul.style.right= "-200px";
+})
+menuLinks.forEach((menuLink) => {
+    menuLink.addEventListener("click",()=> {
+        ul.style.right= "-200px";
+    })
 })
